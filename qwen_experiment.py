@@ -65,7 +65,7 @@ model = FastLanguageModel.get_peft_model(
 )
 
 
-df = pd.read_csv("/kaggle/working/train_data_genai.csv")
+df = pd.read_csv("train_data_genai.csv")
 
 zsl_prompt = """Berikut adalah sebuah instruksi yang menjelaskan sebuah tugas, diikuti dengan sebuah input yang memberikan konteks tambahan. Tulislah respons yang sesuai untuk menyelesaikan permintaan tersebut.
 
